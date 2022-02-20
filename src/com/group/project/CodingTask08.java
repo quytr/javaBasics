@@ -7,7 +7,7 @@ public class CodingTask08 {
 		 * Maximum and minimum number in the array
 		 */
 
-		int[] numbs = { 40, 5, 88, 209, -324, 0 };
+		int[] numbs = { 500, 40, 5, 88, 209, -324, 0 };
 		
 		int maxNumb = numbs[0];
 		

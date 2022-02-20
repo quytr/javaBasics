@@ -1,5 +1,6 @@
 package com.group.project;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class CodingTask01 {
@@ -39,7 +40,12 @@ public class CodingTask01 {
 			
 		}
 		
+		//print out the elements of an array without a loops
+		System.out.println(Arrays.toString(myArray));
+		
 		System.out.println("The sum of the array is " + sumArray);
+		
+		
 	
 	}
 

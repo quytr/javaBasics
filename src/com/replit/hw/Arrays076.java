@@ -1,5 +1,6 @@
 package com.replit.hw;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Arrays076 {
@@ -26,11 +27,12 @@ public class Arrays076 {
 			
 		}
 		
-		for(String day: days) {
-			
-			System.out.println(day);
-		}
-		
+		System.out.println(Arrays.toString(days));
+//		for(String day: days) {
+//			
+//			System.out.println(day);
+//		}
+//		
 		
 
 	}

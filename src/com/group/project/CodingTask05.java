@@ -16,16 +16,16 @@ public class CodingTask05 {
 		 * 
 		 */
 		
-		int x = 38;
-		int y = 18;
+		int a = 38;
+		int b = 18;
 		
-		System.out.println("Before swapping a = " + x + " and b = " + y );
+		System.out.println("Before swapping a = " + a + " and b = " + b );
 		
-		x = x + y;     //a = 38 + 18 = 56
-		y = x - y;     //b = 56 - 18 = 38
-		x = x - y;     //a = 56 - 38 = 18
+		a = a + b;     //a = 38 + 18 = 56
+		b = a - b;     //b = 56 - 18 = 38
+		a = a - b;     //a = 56 - 38 = 18
 		
-		System.out.println("After swapping a = " + x + " and b = " + y);
+		System.out.println("After swapping a = " + a + " and b = " + b);
 
 	}
 

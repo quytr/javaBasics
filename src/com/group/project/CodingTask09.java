@@ -11,24 +11,25 @@ public class CodingTask09 {
 
 		int[] numbs = { -40, 10, -17, 0, -85 };
 
-		int size = numbs.length; // 4
-
 		int largestNum = Integer.MIN_VALUE;
 
 		int secLargest = Integer.MIN_VALUE;
 
-		for (int i = 0; i < size; i++) {
+		for (int numb : numbs) {
 
-			if (numbs[i] > largestNum) {
+			if (numb > largestNum) {
 
 				secLargest = largestNum;
 
-				largestNum = numbs[i];
-			}
+				largestNum = numb;
+			} // else if(numb > secLargest && numb != largesrNum{
+			  // secLargest = numb;
+			  //}
+			  // or using if, like below
 
-			if (numbs[i] < largestNum && numbs[i] > secLargest) {
+			if (numb < largestNum && numb > secLargest) {
 
-				secLargest = numbs[i];
+				secLargest = numb;
 
 			}
 
