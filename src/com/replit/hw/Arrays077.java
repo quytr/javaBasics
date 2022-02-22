@@ -24,6 +24,7 @@ public class Arrays077 {
 		for (int i = (size - 1); i >= 0; i--) {
 
 			numbs[i] = sc.nextInt();
+			
 
 		}
 
