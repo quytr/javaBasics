@@ -13,16 +13,14 @@ public class MethodsHW4 {
 	}
 
 	public static void main(String[] args) {
-		
+
 		MethodsHW4 obj = new MethodsHW4();
-		
+
 		System.out.println(obj.createEmail("John", "Asper", "yahoo"));
-		
+
 		System.out.println(obj.createEmail("Matt", "Davis", "gmail"));
-		
-		System.out.println(obj.createEmail("Tim","Kain", "hotmail"));
-		
-		
+
+		System.out.println(obj.createEmail("Tim", "Kain", "hotmail"));
 
 	}
 
