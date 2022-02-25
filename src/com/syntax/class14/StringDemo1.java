@@ -9,6 +9,8 @@ public class StringDemo1 {
 		System.out.println(name);
 		System.out.println(name2);
 		
+		System.out.println(name.toString());
+		
 		System.out.println(name.length());
 		System.out.println(name2.length());
 		
